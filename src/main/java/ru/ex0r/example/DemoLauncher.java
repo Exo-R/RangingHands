@@ -12,6 +12,13 @@ public class DemoLauncher {
         hands.add(new PokerHand("AC 6C 3C 4C 2C"));
         hands.add(new PokerHand("JC 5H JD JH 5C"));
 
+        Collections.sort(hands, Collections.reverseOrder());
+
+        for(PokerHand pokerHand : hands)
+            System.out.println(pokerHand.getCombination() + "\n" + pokerHand  + "\n\n");
+
+        Collections.sort(hands);
+
         for(PokerHand pokerHand : hands)
             System.out.println(pokerHand.getCombination() + "\n" + pokerHand  + "\n\n");
 
