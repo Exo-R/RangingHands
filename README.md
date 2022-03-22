@@ -1,8 +1,8 @@
 Ранжирование покерных рук (набор карт игрока)
 
-".../ranging/" - папка с кодом программы
+".../main/java/ru/ex0r/example/" - путь к коду программы
 
-".../test/" - папка с unit-тестами
+".../test/java/ru/ex0r/example/" - путь к unit-тестам
 
 "Collections.sort(hands, Collections.reverseOrder());" - сортировка по убыванию
 
